@@ -1,19 +1,41 @@
 .home-header {
     font-family: "Times New Roman", Times, serif;
+    padding-bottom: 1%;
+    font-size: 160%;
 }
 
 .home-subheader {
     font-style: italic;
 }
 
-.about-header {
+.header {
     font-style: italic;
+    padding-bottom: 1%;
+    font-size: 150%;
 }
 
-.contact-header {
-    font-style: italic;
+.navbar {
+    width: 250px;
+    margin: 0 auto;
+    font-size: 130%;
 }
 
-.resume-header {
-    font-style: italic;
+.navbar-container {
+    padding: 1%;
+    background-color: cornflowerblue;
 }
+
+.resume-container {
+    width: 315px;
+    margin: 0 auto;
+}
+
+.about-text {
+    width: 50%;
+    font-size: 130%;
+}
+
+.contact-body {
+    font-size: 130%;
+}
+
