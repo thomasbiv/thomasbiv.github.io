@@ -1,28 +1,34 @@
 .home-header {
     font-family: "Times New Roman", Times, serif;
-    padding-bottom: 1%;
     font-size: 160%;
+    width: 600px;
+    margin: 0 auto;
+    color: white;
 }
 
 .home-subheader {
     font-style: italic;
+    color: white;
+    padding-bottom: 1%;
 }
 
-.header {
-    font-style: italic;
-    padding-bottom: 1%;
-    font-size: 150%;
+.contact-header {
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 1%;
+    font-size: 110%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar {
-    width: 250px;
-    margin: 0 auto;
     font-size: 130%;
 }
 
 .navbar-container {
+    position: fixed;
+    top: 0;
     padding: 1%;
-    background-color: cornflowerblue;
+    background-color: rgb(62, 62, 177);
 }
 
 .resume-container {
@@ -30,12 +36,63 @@
     margin: 0 auto;
 }
 
+.about-header {
+    width: 170px;
+    margin: 0 auto;
+    padding-top: 1%;
+    font-size: 110%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.resume-header {
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 1%;
+    font-size: 110%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .about-text {
-    width: 50%;
     font-size: 130%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .contact-body {
     font-size: 130%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.nav-btn {
+    background-color: rgb(62, 62, 177);
+    border-color: white;
+    border-style: double;
+}
+
+.nav-btn:hover {
+    border-color: cornflowerblue;
+}
+
+.nav-lnk {
+    text-decoration: none;
+    color: white;
+}
+
+.home {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.home-background {
+    background-color: cornflowerblue;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.lnk-btns {
+    width: 60px;
+    margin: 0 auto;
+    padding-bottom: 1%;
+}
+
+/*https://www.usf.edu/engineering/cse/*/
 

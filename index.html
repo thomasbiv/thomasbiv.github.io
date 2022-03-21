@@ -2,23 +2,93 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Home</title>
+        <title>Thomas Bivins</title>
         <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class="navbar-container">
             <div class="navbar">
-                <a href="index.html" class="home-btn">Home</a>
-                <a href="about.html" class="about-btn">About</a>
-                <a href="contact.html" class="contact-btn">Contact</a>
-                <a href="resume.html" class="resume-btn">Resume</a>
+                <button class="nav-btn">
+                    <a href="#home" class="nav-lnk">Home</a>
+                </button>
+                <button class="nav-btn">
+                    <a href="#about" class="nav-lnk">About</a>
+                </button>
+                <button class="nav-btn">
+                    <a href="#contact" class="nav-lnk">Contact</a>
+                </button>
+                <button class="nav-btn">
+                    <a href="#resume" class="nav-lnk">Resume</a>
+                </button>
             </div>
         </div>
-        <div class="home-header">
-            <h1>Thomas Bivins</h1>
+        
+        <div class="home-background">
+            <div class="home">
+                <div class="home-header">
+                    <h1 id="home">Hello, I'm <span style="color:rgb(62, 62, 177);">Thomas Bivins</span></h1>
+                </div>
+                <div class="home-subheader">
+                    <h2>Computer Engineering Student at the <span style="color:rgb(62, 62, 177);"><a href="https://www.usf.edu/engineering/cse/">University of South Florida</a></div></span></h2>
+                </div>
+                <div class="lnk-btns">
+                    <a href="https://www.linkedin.com/in/thomas-bivins/"><i class="fa fa-linkedin" style="color: white;"></i></a>
+                    &nbsp;
+                    <a href="https://github.com/thomasbiv"><i class="fa fa-github" style="color: white;"></i></a>
+                </div>
+            </div>
         </div>
-        <div class="home-subheader">
-            <h2>Welcome to my website</h2>
+
+        <div class="about">
+            <div class="about-header">
+                <h2 id="about">About Me</h2>
+            </div>
+            <div class="about-body">
+                <div class="about-text">
+                    <p>
+                        Hello! My name is Thomas Bivins and I am an undergraduate student at the University of South Florida currently majoring in Computer Engineering. 
+                        I currently work in web development in the <a href="https://sites.google.com/view/usfcsdl" class="">USF Computational Sociodynamics Lab</a> for the purpose of testing a custom algorithm for delivering information to people's Twitter feeds. 
+                        I have a great passion for Computer Science and Engineering and find that I learn something new every day. 
+                        Aside from school, I also have a multitude of hobbies and personal programming projects that I am always working on. 
+                        For further inquiries, feel free to contact me. Thanks! 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <div class="contact-header">
+                <h2 id="contact">Contact Me</h2>
+            </div>
+            <div class="contact-body">
+                <p>
+                    Personal Email
+                    <ul>
+                        <li>bivinsthomas@gmail.com</li>
+                    </ul>
+                    University Email
+                    <ul>
+                        <li>thomasbivins@usf.edu</li>
+                    </ul>
+                    Other
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/thomas-bivins/" class="">LinkedIn</a></li>
+                        <li><a href="https://github.com/thomasbiv" class="">GitHub</a></li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+        <div class="resume">
+            <div class="resume-header">
+                <h2 id="resume">My Resume</h2>
+            </div>
+            <div class="resume-body">
+                <div class="resume-container">
+                    <iframe title="doc" type="application/pdf" src="https://docs.google.com/gview?url=https://files.elfsight.com/storage/8cf8b36e-d3c3-4a31-a07e-ba997dbc7703/037f53ae-b592-4b95-b60e-a6c6d6d0176f.pdf&amp;embedded=true" class="jsx-3301839699 eape-embed-file-iframe"></iframe>
+                </div>
+            </div>
         </div>
     </body>
 </html>
