@@ -1,5 +1,5 @@
 .home-header {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 130%;
     width: 490px;
     margin: 0 auto;
@@ -7,17 +7,21 @@
 }
 
 .home-subheader {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
     color: white;
     padding-bottom: 1%;
+    width: 520px;
+    margin: 0 auto;
+    font-size: 70%;
 }
 
 .contact-header {
-    width: 200px;
+    width: 170px;
     margin: 0 auto;
     padding-top: 1%;
     font-size: 110%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar {
@@ -28,7 +32,7 @@
     position: fixed;
     top: 0;
     padding: 1%;
-    background-color: rgb(62, 62, 177);
+    background-color: rgb(65, 63, 63);
 }
 
 .resume-container {
@@ -37,44 +41,44 @@
 }
 
 .about-header {
-    width: 170px;
+    width: 150px;
     margin: 0 auto;
     padding-top: 1%;
     font-size: 110%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .resume-header {
-    width: 200px;
+    width: 165px;
     margin: 0 auto;
     padding-top: 1%;
     font-size: 110%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .about-text {
     font-size: 130%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .contact-body {
     font-size: 130%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav-btn {
-    background-color: rgb(62, 62, 177);
-    border-color: white;
-    border-style: double;
-}
-
-.nav-btn:hover {
-    border-color: cornflowerblue;
+    background-color: rgb(65, 63, 63);
+    /*border-color: white;*/
+    border-style: none;
 }
 
 .nav-lnk {
     text-decoration: none;
     color: white;
+}
+
+.nav-lnk:hover {
+    color: cornflowerblue;
 }
 
 .home {
@@ -83,7 +87,7 @@
 }
 
 .home-background {
-    background-color: cornflowerblue;
+    background-color: rgb(105, 102, 102);
     padding-top: 1%;
     padding-bottom: 1%;
 }
@@ -92,6 +96,14 @@
     width: 60px;
     margin: 0 auto;
     padding-bottom: 1%;
+}
+
+.fa-linkedin:hover {
+    color: cornflowerblue !important;
+}
+
+.fa-github:hover {
+    color: cornflowerblue !important;
 }
 
 /*https://www.usf.edu/engineering/cse/*/
