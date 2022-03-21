@@ -17,7 +17,7 @@
 }
 
 .contact-header {
-    width: 170px;
+    width: 160px;
     margin: 0 auto;
     padding-top: 1%;
     font-size: 110%;
@@ -35,13 +35,8 @@
     background-color: rgb(65, 63, 63);
 }
 
-.resume-container {
-    width: 315px;
-    margin: 0 auto;
-}
-
 .about-header {
-    width: 150px;
+    width: 145px;
     margin: 0 auto;
     padding-top: 1%;
     font-size: 110%;
@@ -49,7 +44,7 @@
 }
 
 .resume-header {
-    width: 165px;
+    width: 155px;
     margin: 0 auto;
     padding-top: 1%;
     font-size: 110%;
@@ -93,7 +88,7 @@
 }
 
 .lnk-btns {
-    width: 60px;
+    width: 55px;
     margin: 0 auto;
     padding-bottom: 1%;
 }
@@ -104,6 +99,10 @@
 
 .fa-github:hover {
     color: cornflowerblue !important;
+}
+
+.page-body {
+    background-color: rgb(197, 193, 193);
 }
 
 /*https://www.usf.edu/engineering/cse/*/
