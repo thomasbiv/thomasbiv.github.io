@@ -105,5 +105,23 @@
     background-color: rgb(197, 193, 193);
 }
 
+.lab-lnk {
+    font-style: italic;
+    text-decoration: underline; 
+    color: rgb(43, 106, 223);
+}
+
+.li-lnk {
+    font-style: italic;
+    text-decoration: underline; 
+    color: rgb(43, 106, 223);
+}
+
+.gh-lnk {
+    font-style: italic;
+    text-decoration: underline; 
+    color: rgb(43, 106, 223);
+}
+
 /*https://www.usf.edu/engineering/cse/*/
 
