@@ -4,6 +4,7 @@
     text-align: center;
     margin: 0 auto;
     color: white;
+    box-sizing: border-box;
 }
 
 .home-subheader {
@@ -54,11 +55,15 @@
 .about-text {
     font-size: 130%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 .contact-body {
     font-size: 130%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 .nav-btn {
@@ -85,6 +90,8 @@
     background-color: rgb(88, 87, 87);
     padding-top: 1%;
     padding-bottom: 1%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .lnk-btns {
