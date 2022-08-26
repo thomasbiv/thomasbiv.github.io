@@ -1,6 +1,7 @@
 .home-header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 130%;
+    /*font-size: 130%;*/
+    font-size: 1.5vw;
     text-align: center;
     margin: 0 auto;
     color: white;
@@ -11,10 +12,19 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
     color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size:.8vw;
+}
+
+.home-subheadersh1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: white;
     padding-bottom: 1%;
     text-align: center;
     margin: 0 auto;
-    font-size: 70%;
+    font-size: .6vw;
 }
 
 .contact-header {
@@ -34,6 +44,18 @@
     top: 0;
     padding: 1%;
     background-color: rgb(65, 63, 63);
+    
+    /*padding: .2%;
+    background-color: rgb(65, 63, 63);
+
+    text-align: center;
+    position: fixed;
+    width: 500px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    margin-top: -400px; 
+    margin-left: -250px;*/ /*Needs deubugging - centers navbar correctly but disappears on window resize*/
 }
 
 .about-header {
@@ -125,6 +147,12 @@
 }
 
 .gh-lnk {
+    font-style: italic;
+    text-decoration: underline; 
+    color: rgb(43, 106, 223);
+}
+
+.em-link {
     font-style: italic;
     text-decoration: underline; 
     color: rgb(43, 106, 223);
