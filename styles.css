@@ -162,3 +162,10 @@
 .link-container:hover {
     background-color: cornflowerblue !important;
 }
+
+.copyright {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(88, 87, 87);
+    color: white;
+}
