@@ -2,26 +2,21 @@
 <html>
     <head>
         <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Thomas Bivins</title>
         <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     </head>
     <body class="page-body">
-        <div class="navbar-container">
-            <div class="navbar">
-                <button class="nav-btn">
-                    <a href="#home" class="nav-lnk">Home</a>
-                </button>
-                <button class="nav-btn">
-                    <a href="#about" class="nav-lnk">About</a>
-                </button>
-                <button class="nav-btn">
-                    <a href="#contact" class="nav-lnk">Contact</a>
-                </button>
-                <button class="nav-btn">
-                    <a href="#resume" class="nav-lnk">Resume</a>
-                </button>
-            </div>
+        <div class="navbar" id="navBar">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <a href="#resume" class="nav-link">Resume</a>
+            <a href="javascript:void(0);" class="icon" onclick="shrinkNav()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
         
         <div class="home-background">
@@ -90,4 +85,5 @@
             <p>Copyright © <a href="https://thomasbiv.github.io/" style="color:cornflowerblue; text-decoration: none;">Thomas Bivins</a> 2021</p>
         </div>
     </body>
+    <script src="fnc.js"></script>
 </html>
