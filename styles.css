@@ -10,7 +10,7 @@
     font-style: italic;
     color: white;
     text-align: center;
-    font-size:.8vw;
+    font-size:.7vw;
 }
 
 .home-subheadersh1 {
@@ -116,6 +116,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0 auto;
     max-width: 90%;
+    text-align: center;
 }
 
 .contact-body {
