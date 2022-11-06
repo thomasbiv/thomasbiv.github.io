@@ -11,8 +11,8 @@
     color: white;
     text-align: center;
     font-size:.7vw;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .home-subheadersh1 {
@@ -208,6 +208,7 @@
     color: white;
 }
 
+
  .resume-pdf {
     width: 50%;
     height: 100%;
@@ -221,7 +222,11 @@
     width: auto;
     min-height: 600px !important;
 }
+/*
+<iframe type="application/pdf" class="resume-pdf" src="resume.pdf#view=fitH" frameborder="0" title="testPdf"></iframe>
 
+style="width:100%; height:650px;"
+*/
 @media screen and (max-width: 600px){
     .resume-container {
         text-align: center;
