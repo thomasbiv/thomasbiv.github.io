@@ -119,6 +119,8 @@
     margin: 0 auto;
     max-width: 90%;
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .contact-body {
@@ -204,8 +206,8 @@
 .copyright {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    background-color: rgb(88, 87, 87);
-    color: white;
+    color: black;
+    font-weight: bold;
 }
 
 
@@ -257,4 +259,58 @@ style="width:100%; height:650px;"
 
 .resume-dl:hover {
     color: cornflowerblue;
+}
+
+.about-body {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about-img-div {
+    display: flex;
+    justify-content: center;
+    float: left;
+    width: 200%;
+}
+
+.about-img {
+    max-width: 100%;
+    border-radius: .5%;
+    border-color: rgb(65, 63, 63);
+    border-style: solid;
+}
+
+
+.about-text {
+    text-align: center;
+    padding-left: 2%;
+}
+
+@media screen and (max-width: 800px){
+    .about-body {
+        display: block;
+    }
+    .about-text {
+        text-align: center;
+    }
+
+    .about-img-div {
+        display: flex;
+        justify-content: center;
+        float: left;
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    .about-img {
+        max-width: 80%;
+        border-radius: .5%;
+        border-color: rgb(65, 63, 63);
+        border-style: solid;
+    }
+
+    
+
 }
