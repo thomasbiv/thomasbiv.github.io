@@ -246,7 +246,7 @@ style="width:100%; height:650px;"
     text-align: center;
 }
 
-.resume-dl {
+.hyperlink {
     color: black;
     font-size: 17px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -254,7 +254,7 @@ style="width:100%; height:650px;"
     font-weight: bold;
 }
 
-.resume-dl:hover {
+.hyperlink:hover {
     color: cornflowerblue;
 }
 
