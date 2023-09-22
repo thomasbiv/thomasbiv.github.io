@@ -12,6 +12,7 @@
         <div class="navbar" id="navBar">
             <a href="#home" class="nav-link">Thomas Bivins</a>
             <a href="#about" class="nav-link">About</a>
+            <a href="#projects" class="nav-link">Projects</a>
             <a href="#contact" class="nav-link">Contact</a>
             <a href="#resume" class="nav-link">Resume</a>
             <a href="javascript:void(0);" class="icon" onclick="shrinkNav()">
@@ -39,7 +40,7 @@
         </div>
 
         <div class="about">
-            <div class="about-header">
+            <div class="header">
                 <h2 id="about">About Me</h2>
             </div>
             <div class="about-body">
@@ -62,8 +63,61 @@
             </div>
         </div>
 
+        <div class="projects">
+            <div class="header">
+                <h2 id="projects">Projects</h2>
+            </div>
+            <div class="projects-body">
+                <div class="project">
+                    <div class="project-img-div">
+                        <img src="github_PNG.png" class="project-img" alt="">
+                    </div>
+                    <div class="project-text">
+                        <div class="smallheader">
+                            <h3><a href="https://github.com/thomasbiv/vibebot">Vibe Bot</a></h3>
+                        </div>
+                        <p>
+                            <i>Discord music/party bot</i><br><br>
+                            
+                            Vibe Bot is a simple and easy-to-use Discord bot written in Python created for the purpose of audio playback within Discord voice chats, and various other server moderation tools.
+                        </p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-img-div">
+                        <img src="cmos.png" class="project-img" alt="">
+                    </div>
+                    <div class="project-text">
+                        <div class="smallheader">
+                            <h3><a href="https://github.com/thomasbiv/CMOS-VLSI-Final-Project">SISO 8-Bit Multiplier</a></h3>
+                        </div>
+                        <p>
+                            <i>CMOS design component</i><br><br>
+                            
+                            This 8-bit CMOS-VLSI multiplier was created in the Cadence Virtuoso Design Environment. Takes two 8-bit inputs serially and outputs the result serially through an output register.
+                        </p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-img-div">
+                        <img src="fpga.png" class="project-img" alt="">
+                    </div>
+                    <div class="project-text">
+                        <div class="smallheader">
+                            <h3><a href="https://github.com/thomasbiv/Moore-FPGAVendingMachine">Moore FPGA Vending Machine</a></h3>
+                        </div>
+                        <p>
+                            <i>Moore model Verilog FSM created in the Xilinx ISE Design Suite</i><br><br>
+                            
+                            This Moore model verilog FSM was created to be loaded into an FPGA and display the basic functionality of a vending machine; outputting soda and change depending on input.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="contact">
-            <div class="contact-header">
+            <div class="header">
                 <h2 id="contact">Contact Me</h2>
             </div>
             <div class="contact-body">
@@ -74,7 +128,7 @@
         </div>
 
         <div class="resume">
-            <div class="resume-header">
+            <div class="header-padding">
                 <h2 id="resume">My Resume</h2>
             </div>
             <div class="res-dl">
